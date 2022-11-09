@@ -94,6 +94,15 @@ export const HeroSpan = styled.p`
 export const HeroBtnWrapper = styled.div`
     display: flex;
     flex-direction: column;
+    margin-top: 4em;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 8em;
+    }
+
+    @media screen and (max-width: 480px) {
+        margin-right: 1.5em;
+    }
 `;
 
 export const ArrowForward = styled(MdArrowForward)`
