@@ -1,9 +1,7 @@
 @font-face {
   font-family: 'a_love_of_thunderregular';
-  src: url('../src/fonts/loveofthunder.ttf') format('truetype'),
-       url('../src/fonts/loveofthunder.otf') format('opentype'),
-       url('../src/fonts/a_love_of_thunder_-_licensed_version-webfont.woff2') format('woff2'),
-       url('../src/fonts/a_love_of_thunder_-_licensed_version-webfont.woff') format('woff');
+  src: url('a_love_of_thunder-webfont.woff2') format('woff2'),
+       url('a_love_of_thunder-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'A Love of Thunder', 'sans serif';
+  font-family: 'a_love_of_thunderregular', 'sans serif';
 }
 
 
