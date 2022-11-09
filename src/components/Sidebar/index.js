@@ -3,13 +3,6 @@ import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, Sidebar
 
 
 const Sidebar = ({ isOpen, toggle }) => {
-  function message(e) {
-    e.preventDefault();
-    
-    if (navigator.userAgent.match(/(Android)/i|/(iPhone)/i)) {
-       window.open('sms://5405216141');
-    }
-  }
 
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -19,23 +12,26 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
         <SidebarLink to='about' onClick={toggle}>
-                About
+                Our Story
             </SidebarLink>
-            <SidebarLink to='services' onClick={toggle}>
-                Services
+            <SidebarLink to='kettle' onClick={toggle}>
+                Kettle Corn
             </SidebarLink>
-            <SidebarLink to='safety' onClick={toggle}>
-                Safety
+            <SidebarLink to='coffee' onClick={toggle}>
+                Coffee
             </SidebarLink>
-            <SidebarLink to='sanitation' onClick={toggle}>
-                Sanitation
+            <SidebarLink to='bulk' onClick={toggle}>
+                Bulk
+            </SidebarLink>
+            <SidebarLink to='contact' onClick={toggle} offset={-80}>
+                Contact
             </SidebarLink>
             <SidebarLink to='location' onClick={toggle} offset={-120}>
                 Location
             </SidebarLink>
 
         <SideBtnWrap>
-             <SidebarRoute onClick={message} to='location'>Message Us</SidebarRoute> 
+             <SidebarRoute to='../square.html'>Order Online</SidebarRoute> 
         </SideBtnWrap>
         </SidebarMenu>
       </SidebarWrapper>

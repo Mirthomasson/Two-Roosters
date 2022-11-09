@@ -40,8 +40,6 @@ export const HeroBg = styled.div`
 `;
 
 
-
-
 export const VideoBg = styled.video`
     width: 100%;
     height: 100%;
@@ -61,39 +59,20 @@ export const HeroContent = styled.div`
     justify-content: center;
 `;
 
-export const HeroLogo = styled.div`
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    margin-top: 11em;
-`;
-
-export const Img = styled.img`
-    height: 100%;
-    width: 500px;
-
-    @media screen and (max-width: 768px) {
-        height: 100%;
-        width: 400px;
-        margin-top: -3em;
-    }
-
-    @media screen and (max-width: 480px) {
-        height: 100%;
-        width: 300px;
-        margin-top: -.5em;
-    }
-`;
 
 export const HeroP = styled.p`
-    margin-top: -2.5em;
+    text-shadow: rgb(35 31 32 / 35%) 5px 5px 5px;
+    color: #faf7ef;
+    text-transform: uppercase; 
+    font-size: 2.5em;
+    margin-top: 5.5em;
 
     @media screen and (max-width: 768px) {
-        margin-top: 1em;
+        font-size: 1.75em;
     }
 
     @media screen and (max-width: 480px) {
-        margin-top: -.5em;
+        font-size: 1.3em
     }
 `;
 
@@ -113,10 +92,8 @@ export const HeroSpan = styled.p`
 `
 
 export const HeroBtnWrapper = styled.div`
-    margin-top: 12px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 `;
 
 export const ArrowForward = styled(MdArrowForward)`

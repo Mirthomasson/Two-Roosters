@@ -1,13 +1,15 @@
+import { FaYoutube } from 'react-icons/fa';
+
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topline: 'Our Business',
+    topline: 'Our Story',
     headline: 'Locally Owned',
-    description: 'Smith Mountain Laundromat has been serving the community with a clean and efficient place to wash since 1991. As a locally owned and operated small business, we pride ourselves in offering quality and affordable laundry services as well as a clean and comfortable environment.',
+    description: 'Two Roosters was started by two friends, Travis Powell and Antti Koskenrouta. Friends since 1996, Travis and Antti had been looking for an opportunity to go into business together. It finally presented itself when Travis pitched the idea of starting to make the best f*cking kettle corn there is. Through rigorous testing, tasting and experimenting, the Roosters honed in on a recipe that’s makes the delicious Two Roosters Kettle Corn. Shortly after starting to make kettle corn, the possibility of branching out to make craft coffee as well.',
     imgStart: false,
-    img: require('../../images/tr-locations.jpeg'),
+    img: require('../../images/Two_Roosters_vector.png'),
     alt: 'washer',
     dark: true,
     primary: true,
@@ -15,15 +17,15 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    id: 'services',
+    id: 'kettle',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topline: 'Our Machines',
-    headline: 'Gas-burning Dryers',
-    description: 'Offering High Capacity Front load commercial grade washers for your comforters and quilts, all the way down to simple single basket top load machines, we offer all types of wash options to best suit your needs. Opting to keep our “Classic” Extra-Large Gas burning dryers, our dryers offer a higher drying temperature than our competitors, a true customer favorite.',
+    topline: 'Kettle Corn',
+    headline: 'Simple Ingredients',
+    description: 'Mushroom corn kernels, canola oil, sugar and salt. Our ingredients are non-GMO and contain no animal products or preservatives. Our product is popped “to order” which means it doesn’t sit around getting stale before we ship it. We use a high-volume, propane-powered Mann kettle, named Pappy. Kettle corn is better when the kettle has a name. That’s just science.',
     imgStart: true,
-    img: require('../../images/tr-locations.jpeg'),
+    img: require('../../images/kettle-corn.jpeg'),
     alt: 'washer',
     dark: true,
     primary: true,
@@ -31,15 +33,15 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'safety',
+    id: 'coffee',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topline: 'Safety',
-    headline: 'High Security',
-    description: 'With "State of the Art" security in place, whether you are washing alone, with your family, or late in the evening, our facility is well-lit and closely monitored to ensure your safety at all times.',
+    topline: 'Coffee',
+    headline: 'Roasted by hand',
+    description: 'Our goal is simple: We want our coffee to be your go-to coffee - something you will want to drink every day. We offer fresh, consistent, high-quality coffee at a reasonable price.',
     imgStart: false,
-    img: require('../../images/tr-onshelf.jpeg'),
+    img: require('../../images/coffee.jpeg'),
     alt: 'washer',
     dark: true,
     primary: true,
@@ -47,15 +49,15 @@ export const homeObjThree = {
 };
 
 export const homeObjFour = {
-    id: 'sanitation',
+    id: 'bulk',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topline: 'Cleanliness',
-    headline: 'Cleaned Daily',
-    description: 'Our top priority! We feel that any customers experience is enhanced by knowing that they are washing their laundry in a clean facility, which is why we do our absolute best to stay on top of cleaning schedules and sanitation.',
+    topline: 'Bulk Orders',
+    headline: 'Special Occasions',
+    description: 'Personalized for events, gifts, retail, or whatever your shindig entails. Photo features an example of product for a music venue.',
     imgStart: true,
-    img: require('../../images/tr-locations.jpeg'),
+    img: require('../../images/bulk.jpeg'),
     alt: 'washer',
     dark: true,
     primary: true,
@@ -67,27 +69,16 @@ export const homeObjFive = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topline: 'Contact',
-    headline: '(540) 521-6141',
-    description: 'Feel free to text us concerning mechanical issues, questions, or how we can continue improving your experience. If it is an emergency give us a call.',
+    topline: '(540) 520-4210',
+    headline: 'Contact',
+    description: 'Mailing Address : PO Box 4488 Roanoke, VA 24015',
     imgStart: false,
-    img: require('../../images/tr-locations.jpeg'),
+    img: require('../../images/tr-onniceshelves.jpeg'),
     alt: 'washer',
     dark: true,
     primary: true,
     darkText: false
 };
 
-export const homeObjSix = {
-    id: 'location',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topline: 'Location',
-    headline: 'Convenience',
-    description: 'Located at the intersection of rt 122 and Hendricks store Rd, we are smack dab in the middle of Moneta, making your visit fast and easy while out running errands or shopping.',
-    dark: false,
-    primary: false,
-    darkText: true
-};
+
 

@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
-import Logo from '../../images/twoRoosters.jpeg';
+import Logo from '../../images/Two_Roosters_vector.png';
 import { animateScroll as scroll } from 'react-scroll';
 
 
@@ -25,19 +25,12 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop()
   };
 
-  function message(e) {
-    e.preventDefault();
-    
-    if (navigator.userAgent.match(/(Android)/i|/(iPhone)/i)) {
-       window.open('sms://5405216141');
-    }
-  }
 
   return (
     <Nav scrollNav={scrollNav}>
       <NavbarContainer>
         <NavLogo to="/" onClick={toggleHome}>
-          <img src={Logo} alt="logo" height="90" width="90"/>
+          <img src={Logo} alt="logo" height="70" width="70"/>
         </NavLogo>
         <MobileIcon onClick={toggle}>
           <FaBars />
@@ -45,22 +38,27 @@ const Navbar = ({ toggle }) => {
         <NavMenu>
         <NavItem>
             <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-              About
+              Our Story
             </NavLinks>
           </NavItem>
         <NavItem>
-            <NavLinks to="services" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-              Services
+            <NavLinks to="kettle" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+              Kettle Corn
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="safety" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-              Safety
+            <NavLinks to="coffee" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+              Coffee
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="sanitation" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-              Sanitation
+            <NavLinks to="bulk" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+              Bulk
+            </NavLinks>
+          </NavItem>
+          <NavItem>
+            <NavLinks to="contact" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+              Contact
             </NavLinks>
           </NavItem>
           <NavItem>
@@ -70,8 +68,8 @@ const Navbar = ({ toggle }) => {
           </NavItem>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink onClick={message} to="/" smooth={true} duration={500} spy={true} exact='true' >
-            (540) 521-6141
+          <NavBtnLink to="../square.html" smooth={true} duration={500} spy={true} exact='true' >
+            Order Online
             </NavBtnLink>
         </NavBtn>
       </NavbarContainer>
