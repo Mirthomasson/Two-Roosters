@@ -72,7 +72,7 @@ export const HeroP = styled.p`
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 1.3em
+        font-size: 1.2em
     }
 `;
 
@@ -102,7 +102,7 @@ export const HeroBtnWrapper = styled.div`
 
     @media screen and (max-width: 480px) {
         margin-right: 1.5em;
-        margin-top: 2em;
+        margin-top: 2em; 
     }
 `;
 
