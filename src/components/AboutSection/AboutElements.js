@@ -81,6 +81,10 @@ export const Subtitle = styled.p`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 2em;
+    }
 `;
 
 export const Img = styled.img`
