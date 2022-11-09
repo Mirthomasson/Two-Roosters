@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'A Love of Thunder', 'Comic Mono';
-  src: url('../src/fonts/A\ Love\ of\ Thunder\ -\ Licensed\ Version.ttf')
+  src: url('../src/fonts/loveofthunder.otf');
+  src: url('../src/fonts/loveofthunder.ttf')
 }
 
 
