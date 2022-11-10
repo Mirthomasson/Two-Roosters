@@ -60,7 +60,7 @@ export const HeroContent = styled.div`
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        padding-top: 200px;
+        padding-top: 150px;
     }
 `;
 
@@ -79,7 +79,7 @@ export const HeroP = styled.p`
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 1.2em
+        font-size: 1.1em;
     }
 `;
 

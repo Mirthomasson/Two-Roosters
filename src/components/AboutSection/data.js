@@ -94,7 +94,7 @@ export const homeObjSix = {
     lightTextDesc: false,
     topline: '',
     headline: '',
-    description: `    Kroger locations:
+    description: `Kroger locations:
     Roanoke Valley:
         Tanglewood- 4488 Electric Rd 
         Hollins- 7223 Williamson Rd 
@@ -112,10 +112,10 @@ export const homeObjSix = {
         Blacksburg- 13222 S Main St 
         Blacksburg- 902 University City Blvd 
         Christiansburg: 555 N Franklin St 
-    Earth Fare Locations:
+Earth Fare Locations:
         Roanoke- 2203 Franklin Rd 
         Christiansburg- 2625 Market St
-    Roanoke Natural Foods Co-Op:
+Roanoke Natural Foods Co-Op:
         Grandin- 1319 Grandin Rd 
         Roanoke- 1 Market Square SE`,
     imgStart: true,
