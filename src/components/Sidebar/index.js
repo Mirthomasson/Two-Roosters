@@ -4,6 +4,10 @@ import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, Sidebar
 
 const Sidebar = ({ isOpen, toggle }) => {
 
+  function handleClick() {
+    window.open("https://thetworoosters.square.site/");
+  };
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -31,7 +35,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </SidebarLink>
 
         <SideBtnWrap>
-             <SidebarRoute to='../square.html'>Order Online</SidebarRoute> 
+             <SidebarRoute onClick={handleClick}>Order Online</SidebarRoute> 
         </SideBtnWrap>
         </SidebarMenu>
       </SidebarWrapper>

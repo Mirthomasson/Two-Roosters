@@ -25,6 +25,10 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop()
   };
 
+  function handleClick() {
+    window.open("https://thetworoosters.square.site/");
+  };
+
 
   return (
     <Nav scrollNav={scrollNav}>
@@ -68,7 +72,7 @@ const Navbar = ({ toggle }) => {
           </NavItem>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="../square.html" smooth={true} duration={500} spy={true} exact='true' >
+          <NavBtnLink onClick={handleClick} smooth={true} duration={500} spy={true} exact='true' >
             Order Online
             </NavBtnLink>
         </NavBtn>
