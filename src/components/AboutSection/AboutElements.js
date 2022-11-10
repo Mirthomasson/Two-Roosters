@@ -11,7 +11,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 1050px;
+    height: 1150px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -81,9 +81,6 @@ export const Subtitle = styled.p`
     line-height: 32px;
     color: ${({darkText}) => (darkText ? 'darkslategray' : 'whitesmoke')};
     white-space: pre-wrap;
-`;
-
-export const List = styled.p`
 `;
 
 export const ImgWrap = styled.div`

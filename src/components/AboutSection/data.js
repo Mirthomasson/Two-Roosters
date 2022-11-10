@@ -7,14 +7,9 @@ export const homeObjOne = {
     lightTextDesc: true,
     topline: 'Our Story',
     headline: 'Locally Owned',
-    description: `\tTwo Roosters was started with roots deep in southern cuisine and the desire to continue the age-old 
-                    tradition of kettle corn! With over a decade spent in the throes of the culinary world, Two Roosters was 
-                    started to leave the coop of the restaurant behind and focus on simple and delicious kettle corn. With the 
-                    highest quality NonGMO ingredients, Two Roosters redefines a country fair favorite. \n \t After getting the 
-                    business popping, Two Roosters also saw a need in the local market for the highest quality organic and small 
-                    batch roasted coffee. As a microroaster, every coffee bean is important and roasted to perfection — the Two 
-                    Roosters way. \n\tTwo Roosters is proudly serving up the best damn NonGMO kettle corn and freshly roasted 
-                    coffee is SWVA!`,
+    description: `\tTwo Roosters was started with roots deep in southern cuisine and the desire to continue the age-old tradition of kettle corn! With over a decade spent in the throes of the culinary world, Two Roosters was started to leave the coop of the restaurant behind and focus on simple and delicious kettle corn. With the highest quality NonGMO ingredients, Two Roosters redefines a country fair favorite. 
+                    \nAfter getting the business popping, Two Roosters also saw a need in the local market for the highest quality organic and small batch roasted coffee. As a microroaster, every coffee bean is important and roasted to perfection — the Two Roosters way. 
+                    \nTwo Roosters is proudly serving up the best damn NonGMO kettle corn and freshly roasted coffee is SWVA!`,
     imgStart: false,
     img: require('../../images/Two_Roosters_vector.png'),
     alt: 'washer',
@@ -30,10 +25,8 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topline: 'Kettle Corn',
     headline: 'Simple Ingredients',
-    description: `\tMushroom corn kernels, canola oil, sugar and salt. Our ingredients are non-GMO and contain no animal products 
-                    or preservatives. \n\t Our product is popped “to order” which means it doesn’t sit around getting stale 
-                    before we ship it. We use a high-volume, propane-powered Mann kettle, named Pappy. Kettle corn is better when 
-                    the kettle has a name. That’s just science.`,
+    description: `Mushroom corn kernels, canola oil, sugar and salt. Our ingredients are non-GMO and contain no animal products or preservatives. 
+    \nOur product is popped “to order” which means it doesn’t sit around getting stale before we ship it. We use a high-volume, propane-powered Mann kettle, named Pappy. Kettle corn is better when the kettle has a name. That’s just science.`,
     imgStart: true,
     img: require('../../images/kettle-corn.jpeg'),
     alt: 'washer',
@@ -49,8 +42,8 @@ export const homeObjThree = {
     lightTextDesc: true,
     topline: 'Coffee',
     headline: 'Roasted by hand',
-    description: `\tOur goal is simple: We want our coffee to be your go-to coffee - something you will want to drink every day. 
-                    \n\t We offer fresh, consistent, high-quality coffee at a reasonable price.`,
+    description: `Our goal is simple: We want our coffee to be your go-to coffee - something you will want to drink every day. 
+                    \nWe offer fresh, consistent, high-quality coffee at a reasonable price.`,
     imgStart: false,
     img: require('../../images/coffee.jpeg'),
     alt: 'washer',
@@ -66,8 +59,8 @@ export const homeObjFour = {
     lightTextDesc: false,
     topline: 'Bulk Orders',
     headline: 'Special Occasions',
-    description: `     Personalized for events, gifts, retail, or whatever your shindig entails. 
-    Photo features an example of product for a music venue.`,
+    description: `Personalized for events, gifts, retail, or whatever your shindig entails. 
+ Photo features an example of product for a music venue.`,
     imgStart: true,
     img: require('../../images/bulk.jpeg'),
     alt: 'washer',
