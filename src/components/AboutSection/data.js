@@ -119,11 +119,9 @@ export const homeObjSix = {
         Blacksburg- 902 University City Blvd 
         24060
         Christiansburg: 555 N Franklin St 24073
-    \r
     Earth Fare Locations:
         Roanoke- 2203 Franklin Rd 24014
         Christiansburg- 2625 Market St 24073
-    \r
     Roanoke Natural Foods Co-Op:
         Grandin- 1319 Grandin Rd 24015
         Roanoke- 1 Market Square SE 24011`,
