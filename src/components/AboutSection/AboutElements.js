@@ -19,6 +19,10 @@ export const InfoWrapper = styled.div`
     padding: 0 24px;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        height: 1450px;
+    }
 `;
 
 export const InfoRow = styled.div`
@@ -76,6 +80,7 @@ export const Subtitle = styled.p`
     font-size: 18px;
     line-height: 32px;
     color: ${({darkText}) => (darkText ? 'darkslategray' : 'whitesmoke')};
+    white-space: pre-wrap;
 `;
 
 export const List = styled.p`

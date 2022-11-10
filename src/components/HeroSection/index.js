@@ -37,7 +37,7 @@ const HeroSection = () => {
           <Button onClick={handleClick} onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Order Online {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
-          <Button onClick={handleClick} onMouseEnter={onHover2} onMouseLeave={onHover2} primary='true' dark='true'>
+          <Button to="locations" onMouseEnter={onHover2} onMouseLeave={onHover2} primary='true' dark='true'>
             Retail Locations {hover2 ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
