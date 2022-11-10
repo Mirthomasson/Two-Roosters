@@ -19,6 +19,10 @@ export const Button = styled(Link)`
     box-shadow: 1px 2px 4px 0px rgba(var(--brz-global-color2),0.35);
     margin-top: 1.5em;
 
+    @media screen and (max-width: 768px) {
+        margin-top: .5em;
+    }
+
     &:hover {
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#e74d3c84' : '#E74C3C')};

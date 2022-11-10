@@ -139,7 +139,8 @@ transition: all .2s ease;
 @media screen and (max-width: 768px) {
   .retail {
     height: 100%;
-    width: 80px;
+    width: 65px;
+    margin-top: -2em;
   }
 }
 

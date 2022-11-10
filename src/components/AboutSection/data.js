@@ -76,7 +76,9 @@ export const homeObjFive = {
     lightTextDesc: true,
     topline: '(540) 257-6840',
     headline: 'Contact',
-    description: 'Mailing Address : PO Box 4488 Roanoke, VA 24015',
+    description: `Mailing Address: 
+PO Box 4488 Roanoke, VA 24015
+Email: info@thetworoosters.com`,
     imgStart: false,
     img: require('../../images/tr-onniceshelves.jpeg'),
     alt: 'washer',
@@ -94,30 +96,28 @@ export const homeObjSix = {
     headline: '',
     description: `    Kroger locations:
     Roanoke Valley:
-        Tanglewood- 4488 Electric Rd 24018
-        Hollins- 7223 Williamson Rd 24019
-        Salem- 1477 W Main St Salem 24153
-        Electric Rd- 1925 Electric Rd 24153
-        Vinton- 915 Hardy Rd 24179
-        Rutgers- 5050 Rutgers St NW 24012
-        Lakeside- 161 S Electric Rd 24153
-        Daleville- 72 Kingston Dr 24083
-        Cave Spring- 4404 Brambleton Ave 24018
-        Brambleton- 3971 Brambleton Ave 24018
-        Towers- 614 Brandon Ave 24015
+        Tanglewood- 4488 Electric Rd 
+        Hollins- 7223 Williamson Rd 
+        Salem- 1477 W Main St Salem 
+        Electric Rd- 1925 Electric Rd 
+        Vinton- 915 Hardy Rd 
+        Rutgers- 5050 Rutgers St NW 
+        Lakeside- 161 S Electric Rd 
+        Daleville- 72 Kingston Dr 
+        Cave Spring- 4404 Brambleton Ave 
+        Brambleton- 3971 Brambleton Ave 
+        Towers- 614 Brandon Ave 
         Bonsack- 3970 Valley Gateway Blvd 
-        24012
         New River Valley:
-        Blacksburg- 13222 S Main St 24060
+        Blacksburg- 13222 S Main St 
         Blacksburg- 902 University City Blvd 
-        24060
-        Christiansburg: 555 N Franklin St 24073
+        Christiansburg: 555 N Franklin St 
     Earth Fare Locations:
-        Roanoke- 2203 Franklin Rd 24014
-        Christiansburg- 2625 Market St 24073
+        Roanoke- 2203 Franklin Rd 
+        Christiansburg- 2625 Market St
     Roanoke Natural Foods Co-Op:
-        Grandin- 1319 Grandin Rd 24015
-        Roanoke- 1 Market Square SE 24011`,
+        Grandin- 1319 Grandin Rd 
+        Roanoke- 1 Market Square SE`,
     imgStart: true,
     img: require('../../images/tr-locations.jpeg'),
     alt: 'washer',
