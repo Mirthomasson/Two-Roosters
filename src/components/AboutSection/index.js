@@ -1,7 +1,7 @@
 import React from 'react';
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './AboutElements';
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, List, ImgWrap, Img } from './AboutElements';
 
-const AboutSection = ({lightBg, id, imgStart, topline, lightText, headline, darkText, description, img, alt}) => {
+const AboutSection = ({lightBg, id, imgStart, topline, lightText, headline, darkText, description, list, img, alt}) => {
   return (
     <>
         <InfoContainer lightBg={lightBg} id={id}>
@@ -14,6 +14,7 @@ const AboutSection = ({lightBg, id, imgStart, topline, lightText, headline, dark
                         </TopLine>
                         <Heading lightText={lightText}>{headline}</Heading>
                         <Subtitle darkText={darkText}>{description}</Subtitle>
+                        <List>{list}</List>
                     </TextWrapper>
                     </Column1>
                     <Column2>

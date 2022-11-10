@@ -110,7 +110,7 @@ line-height: 1;
   position: sticky;
   font-size: 12px;
   background-color: #010606;
-  padding-top: 4em;
+  padding: 2em 0;
   width: 100%;
 }
 
@@ -141,4 +141,9 @@ transition: all .2s ease;
     height: 100%;
     width: 80px;
   }
+}
+
+.insta {
+  background-color: black;
+  padding: 3em 0;
 }

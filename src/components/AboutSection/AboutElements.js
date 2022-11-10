@@ -78,6 +78,9 @@ export const Subtitle = styled.p`
     color: ${({darkText}) => (darkText ? 'darkslategray' : 'whitesmoke')};
 `;
 
+export const List = styled.p`
+`;
+
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;

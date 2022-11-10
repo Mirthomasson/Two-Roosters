@@ -31,7 +31,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 Contact
             </SidebarLink>
             <SidebarLink to='location' onClick={toggle} offset={-120}>
-                Location
+                Locations
             </SidebarLink>
 
         <SideBtnWrap>

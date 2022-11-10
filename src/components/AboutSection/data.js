@@ -7,7 +7,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topline: 'Our Story',
     headline: 'Locally Owned',
-    description: 'Two Roosters was started by two friends, Travis Powell and Antti Koskenrouta. Friends since 1996, Travis and Antti had been looking for an opportunity to go into business together. It finally presented itself when Travis pitched the idea of starting to make the best f*cking kettle corn there is. Through rigorous testing, tasting and experimenting, the Roosters honed in on a recipe that’s makes the delicious Two Roosters Kettle Corn. Shortly after starting to make kettle corn, the possibility of branching out to make craft coffee as well.',
+    description: 'There is nothing more Appalachian than the smell of freshly popped kettle corn. Two Roosters was proudly started with roots deep in southern cuisine, and the desire to continue that age-old tradition. With over a decade spent in the throes of the culinary world, Two Roosters was started to leave the coop of the restaurant behind and focus on simple and delicious treats. Seeking out the highest quality of each ingredient with a concentration on NonGMO, Two Roosters is able to redefine a country fair favorite. After getting the corn business popping, Two Roosters also saw a need in the local market for the highest quality organic and small batch roasted coffee. Being a microroaster, every coffee bean is important and roasted to perfection — the Two Roosters way. Two Roosters is proud to be a part of the South Western Virginia community serving up the best damn NonGMO kettle corn and freshly roasted coffee!',
     imgStart: false,
     img: require('../../images/Two_Roosters_vector.png'),
     alt: 'washer',
@@ -69,7 +69,7 @@ export const homeObjFive = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topline: '(540) 520-4210',
+    topline: '(540) 257-6840',
     headline: 'Contact',
     description: 'Mailing Address : PO Box 4488 Roanoke, VA 24015',
     imgStart: false,
@@ -78,6 +78,23 @@ export const homeObjFive = {
     dark: true,
     primary: true,
     darkText: false
+};
+
+export const homeObjSix = {
+    id: 'locations',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topline: 'Locations',
+    headline: 'Retail Stores',
+    description: 'Mailing Address : PO Box 4488 Roanoke, VA 24015',
+    list: 'test',
+    imgStart: true,
+    img: require('../../images/tr-locations.jpeg'),
+    alt: 'washer',
+    dark: true,
+    primary: true,
+    darkText: true
 };
 
 
