@@ -5,7 +5,6 @@ import Logo from '../../images/Two_Roosters_vector.png';
 import { animateScroll as scroll } from 'react-scroll';
 
 
-
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false)
 

@@ -128,3 +128,17 @@ transition: all .2s ease;
 .mini-footer span {
   color: #8f9296;
 }
+
+/* RETAIL IMAGES */
+
+.retail {
+  height: 100%;
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .retail {
+    height: 100%;
+    width: 80px;
+  }
+}

@@ -51,12 +51,17 @@ export const VideoBg = styled.video`
 export const HeroContent = styled.div`
     z-index: 3;
     position: relative;
-    padding: 8px 24px;
-    padding-top: 100px;
+    padding-top: 300px;
+
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding-top: 200px;
+    }
 `;
 
 
@@ -65,10 +70,12 @@ export const HeroP = styled.p`
     color: #faf7ef;
     text-transform: uppercase; 
     font-size: 2.5em;
-    margin-top: 5.5em;
+    width: 40%;
+    margin-right: 2em;
 
     @media screen and (max-width: 768px) {
         font-size: 1.75em;
+        width: 80%;
     }
 
     @media screen and (max-width: 480px) {
@@ -76,25 +83,9 @@ export const HeroP = styled.p`
     }
 `;
 
-export const HeroSpan = styled.p`
-    color: #ccff02;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-    max-width: 600px;
-
-    @media screen and (max-width: 768px) {
-        font-size: 18px;
-    }
-
-    @media screen and (max-width: 480px) {
-        font-size: 16px;
-`
-
 export const HeroBtnWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: 4em;
 
     @media screen and (max-width: 768px) {
         margin-right: 8em;
@@ -106,12 +97,32 @@ export const HeroBtnWrapper = styled.div`
     }
 `;
 
+export const HeroSpan = styled.p`
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+    gap: 2em;
+    margin-top: 4em;
+`
+
 export const ArrowForward = styled(MdArrowForward)`
     margin-left: 8px;
     font-size: 20px;
 `;
 
 export const ArrowRight = styled(MdKeyboardArrowRight)`
+    margin-left: 8px;
+    font-size: 20px;
+`;
+
+export const ArrowForward2 = styled(MdArrowForward)`
+    margin-left: 8px;
+    font-size: 20px;
+`;
+
+export const ArrowRight2 = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `;
