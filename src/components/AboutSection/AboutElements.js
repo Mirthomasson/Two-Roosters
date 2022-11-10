@@ -21,7 +21,7 @@ export const InfoWrapper = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 768px) {
-        height: 1450px;
+        height: 1400px;
     }
 `;
 
@@ -81,6 +81,10 @@ export const Subtitle = styled.p`
     line-height: 32px;
     color: ${({darkText}) => (darkText ? 'darkslategray' : 'whitesmoke')};
     white-space: pre-wrap;
+
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+    }
 `;
 
 export const ImgWrap = styled.div`
