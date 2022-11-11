@@ -79,7 +79,7 @@ export const homeObjFive = {
 PO Box 4488 Roanoke, VA 24015
 Email: info@thetworoosters.com`,
     imgStart: false,
-    img: require('../../images/tr-onniceshelves.jpeg'),
+    img: require('../../images/roanoke-star.png'),
     alt: 'washer',
     dark: true,
     primary: true,
