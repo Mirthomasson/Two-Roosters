@@ -5,6 +5,7 @@ import { Button } from '../ButtonElement';
 import kroger from '../../images/kroger.png'
 import earth from '../../images/earth.png'
 import coop from '../../images/coop.png'
+import SocialFollow from '../SocialFollow';
 
 
 const HeroSection = () => {
@@ -40,6 +41,7 @@ const HeroSection = () => {
           <Button to="locations" onMouseEnter={onHover2} onMouseLeave={onHover2} primary='true' dark='true'>
             Retail Locations {hover2 ? <ArrowForward /> : <ArrowRight />}
           </Button>
+          <SocialFollow />
         </HeroBtnWrapper>
       </HeroContent>
       <HeroSpan>
