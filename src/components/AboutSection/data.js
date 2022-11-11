@@ -1,5 +1,4 @@
 
-
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -87,44 +86,7 @@ Email: info@thetworoosters.com`,
     darkText: false
 };
 
-export const homeObjSix = {
-    id: 'locations',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topline: '',
-    headline: '',
-    description: `Kroger locations:
-    Roanoke Valley:
-        Tanglewood- 4488 Electric Rd 
-        Hollins- 7223 Williamson Rd 
-        Salem- 1477 W Main St Salem 
-        Electric Rd- 1925 Electric Rd 
-        Vinton- 915 Hardy Rd 
-        Rutgers- 5050 Rutgers St NW 
-        Lakeside- 161 S Electric Rd 
-        Daleville- 72 Kingston Dr 
-        Cave Spring- 4404 Brambleton Ave 
-        Brambleton- 3971 Brambleton Ave 
-        Towers- 614 Brandon Ave 
-        Bonsack- 3970 Valley Gateway Blvd 
-        New River Valley:
-        Blacksburg- 13222 S Main St 
-        Blacksburg- 902 University City Blvd 
-        Christiansburg: 555 N Franklin St 
-Earth Fare Locations:
-        Roanoke- 2203 Franklin Rd 
-        Christiansburg- 2625 Market St
-Roanoke Natural Foods Co-Op:
-        Grandin- 1319 Grandin Rd 
-        Roanoke- 1 Market Square SE`,
-    imgStart: true,
-    img: require('../../images/tr-locations.jpeg'),
-    alt: 'washer',
-    dark: true,
-    primary: true,
-    darkText: true
-};
+
 
 
 

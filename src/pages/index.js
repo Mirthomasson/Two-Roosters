@@ -3,8 +3,8 @@ import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive, homeObjSix } from '../components/AboutSection/data.js';
-
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive } from '../components/AboutSection/data.js';
+import Locations from '../components/LocationsElement';
 
 const Home = () => {
     const[isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ const Home = () => {
       <AboutSection {...homeObjThree} />
       <AboutSection {...homeObjFour} />
       <AboutSection {...homeObjFive} />
-      <AboutSection {...homeObjSix} />
+      <Locations />
     </>
   )
 }

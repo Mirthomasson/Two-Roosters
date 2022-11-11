@@ -15,22 +15,22 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-        <SidebarLink to='about' onClick={toggle}>
+        <SidebarLink to='about' onClick={toggle} offset={-20}>
                 Our Story
             </SidebarLink>
-            <SidebarLink to='kettle' onClick={toggle}>
+            <SidebarLink to='kettle' onClick={toggle} offset={180}>
                 Kettle Corn
             </SidebarLink>
-            <SidebarLink to='coffee' onClick={toggle}>
+            <SidebarLink to='coffee' onClick={toggle} offset={250}>
                 Coffee
             </SidebarLink>
-            <SidebarLink to='bulk' onClick={toggle}>
+            <SidebarLink to='bulk' onClick={toggle} offset={300}>
                 Bulk
             </SidebarLink>
-            <SidebarLink to='contact' onClick={toggle} offset={-80}>
+            <SidebarLink to='contact' onClick={toggle} offset={440}>
                 Contact
             </SidebarLink>
-            <SidebarLink to='location' onClick={toggle} offset={-120}>
+            <SidebarLink to='locations' onClick={toggle} offset={0}>
                 Locations
             </SidebarLink>
 
