@@ -6,9 +6,9 @@ export const homeObjOne = {
     lightTextDesc: true,
     topline: 'Our Story',
     headline: 'Locally Owned',
-    description: `\tTwo Roosters was started with roots deep in southern cuisine and the desire to continue the age-old tradition of kettle corn! With over a decade spent in the throes of the culinary world, Two Roosters was started to leave the coop of the restaurant behind and focus on simple and delicious kettle corn. With the highest quality NonGMO ingredients, Two Roosters redefines a country fair favorite. 
-                    \nAfter getting the business popping, Two Roosters also saw a need in the local market for the highest quality organic and small batch roasted coffee. As a microroaster, every coffee bean is important and roasted to perfection — the Two Roosters way. 
-                    \nTwo Roosters is proudly serving up the best damn NonGMO kettle corn and freshly roasted coffee is SWVA!`,
+    description: `\tTwo Roosters began with roots deep in southern cuisine and the desire to continue the age-old tradition of kettle corn! With over a decade spent in the throes of the culinary world, Two Roosters was an escape from the coop of the restaurant life to focus on simple and delicious kettle corn. With the highest quality NonGMO ingredients, Two Roosters redefines a country fair favorite.
+After getting the corn business popping, Two Roosters saw a need in the local market for high quality organic and small-batch roasted coffee. As a microroaster, every coffee bean is important and roasted to perfection — the Two Roosters way. 
+Two Roosters is now proudly serving up the best damn NonGMO kettle corn and freshly roasted coffee in SWVA!`,
     imgStart: false,
     img: require('../../images/Two_Roosters_vector.png'),
     alt: 'washer',
