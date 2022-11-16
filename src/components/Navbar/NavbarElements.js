@@ -23,7 +23,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 87px;
     z-index: 1;
     width: 100%;
     padding: 0 24px;
@@ -69,6 +69,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height: 80px;
+    margin-top: .65em;
 `;
 
 export const NavLinks = styled(LinkS)`
@@ -79,12 +80,14 @@ export const NavLinks = styled(LinkS)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
-    transition: 0.2s ease;
+    transition: 0.2s ease;  
+    
 
     &:hover {
         transition: 0.2s ease;
         background-color: lightgray;
         color: black;
+        text-decoration: none;
     }
 
     &.active {
@@ -103,7 +106,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     white-space: nowrap;
-    height: 100%;
+    height: 80px;
     display: flex;
     align-items: center;
     padding: 0 1rem;
@@ -119,6 +122,7 @@ export const NavBtnLink = styled(LinkR)`
         transition: all 0.2s ease-in-out;
         background: lightgray;
         color: #000;
+        text-decoration: none;
     }
 `;
 
