@@ -31,8 +31,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroP>
-          <h1>Our business is POPPING!
-          </h1>
+         Our business is POPPING!
         </HeroP>
         <HeroBtnWrapper>
           <Button onClick={handleClick} onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>

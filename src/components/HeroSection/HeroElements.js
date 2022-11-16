@@ -69,23 +69,24 @@ export const HeroP = styled.p`
     text-shadow: rgb(35 31 32 / 35%) 5px 5px 5px;
     color: #faf7ef;
     text-transform: uppercase; 
-    font-size: 2.5em;
+    font-size: 5.5em;
     width: 40%;
-    margin-right: 2em;
+    margin-right: 1.25em;
 
     @media screen and (max-width: 768px) {
-        font-size: 1.75em;
+        font-size: 4em;
         width: 80%;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 1.1em;
+        font-size: 2.75em;
     }
 `;
 
 export const HeroBtnWrapper = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 
     @media screen and (max-width: 768px) {
         margin-right: 8em;
