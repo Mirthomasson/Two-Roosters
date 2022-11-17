@@ -27,7 +27,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarLink to='bulk' onClick={toggle} offset={300}>
                 Bulk
             </SidebarLink>
-            <SidebarLink to='contact' onClick={toggle} offset={440}>
+            <SidebarLink to='contact' onClick={toggle} offset={400}>
                 Contact
             </SidebarLink>
             <SidebarLink to='locations' onClick={toggle} offset={0}>
