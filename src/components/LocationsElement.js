@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import locations from '../images/tr-locations.jpeg';
+import locations from '../images/LocationsFLOAT.png';
 import { Dropdown } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
 
