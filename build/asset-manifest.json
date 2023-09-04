@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f25c7b6.css",
+    "main.js": "/static/js/main.f6502b6e.js",
+    "static/media/popcorn.mp4": "/static/media/popcorn.f9bce480863c84dcd8cf.mp4",
+    "static/media/LocationsFLOAT.png": "/static/media/LocationsFLOAT.577d43bfdb49e4d0399b.png",
+    "static/media/bulk.jpeg": "/static/media/bulk.bcf0daeb964445e717ca.jpeg",
+    "static/media/roanoke-star.png": "/static/media/roanoke-star.5168e6a944ded0bf8225.png",
+    "static/media/Two_Roosters_vector.png": "/static/media/Two_Roosters_vector.c35ce108cb2985349a0f.png",
+    "static/media/coffee.jpeg": "/static/media/coffee.7c77fdc21a92b238392d.jpeg",
+    "static/media/earth.png": "/static/media/earth.c56b2d5ffb5c430adf9d.png",
+    "static/media/a_love_of_thunder-webfont.woff": "/static/media/a_love_of_thunder-webfont.d9f9ee8d7ad20c30a0b2.woff",
+    "static/media/kettle-corn.jpeg": "/static/media/kettle-corn.ff77ded90095c956e116.jpeg",
+    "static/media/a_love_of_thunder-webfont.woff2": "/static/media/a_love_of_thunder-webfont.06949ae8335f60989231.woff2",
+    "static/media/coop.png": "/static/media/coop.47220919d4172c05732c.png",
+    "static/media/kroger.png": "/static/media/kroger.d76a4b0d63cda4771ff1.png",
+    "index.html": "/index.html",
+    "main.0f25c7b6.css.map": "/static/css/main.0f25c7b6.css.map",
+    "main.f6502b6e.js.map": "/static/js/main.f6502b6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f25c7b6.css",
+    "static/js/main.f6502b6e.js"
+  ]
+}
