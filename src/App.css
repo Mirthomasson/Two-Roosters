@@ -117,12 +117,11 @@ line-height: 1;
 .mini-footer a {
 text-decoration: none;
 color: #8f9296;
-transition: all .2s ease;
 }
 
 .mini-footer a:hover {
-  color: darkcyan;
-  transition: all .2s ease;
+  text-decoration: none;
+  color: #8f9296;
 }
 
 .mini-footer span {
