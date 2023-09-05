@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import React from 'react';
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
 
@@ -6,7 +8,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 
   function handleClick() {
     window.open("https://thetworoosters.square.site/");
-  };
+  }
 
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>

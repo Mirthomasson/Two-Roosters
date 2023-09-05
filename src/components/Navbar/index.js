@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import React, {useEffect, useState} from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
@@ -26,7 +28,7 @@ const Navbar = ({ toggle }) => {
 
   function handleClick() {
     window.open("https://thetworoosters.square.site/");
-  };
+  }
 
 
   return (

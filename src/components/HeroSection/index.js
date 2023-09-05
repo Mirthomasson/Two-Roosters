@@ -22,7 +22,7 @@ const HeroSection = () => {
 
   function handleClick() {
       window.open("https://thetworoosters.square.site/");
-    };
+    }
 
   return (
     <HeroContainer>

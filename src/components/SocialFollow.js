@@ -8,7 +8,7 @@ import {
 
 export default function SocialFollow() {
   return (
-    <div class="social-container">
+    <div className="social-container">
     <a href="https://www.facebook.com/tworoosters/"
         className="facebook social" target='_blank' rel="noreferrer">
         <FontAwesomeIcon icon={faFacebook} size="2x" />
